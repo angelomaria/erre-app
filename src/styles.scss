@@ -1,5 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
-@use './tailwind.css';
-@use './assets/layout/layout.scss';
-@use 'primeicons/primeicons.css';
-@use './assets/demo/demo.scss';
+@use "./tailwind.css";
+@use "./assets/layout/layout.scss";
+@use "primeicons/primeicons.css";
+@use "./assets/demo/demo.scss";
+
+.layout-footer {
+    height: 4rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout-footer .footer-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.layout-footer .footer-logo-container img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.layout-footer .footer-logo-container .footer-app-name {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin-left: 0.5rem;
+}
+
+.layout-topbar .layout-topbar-logo-container {
+    width: 100% !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
